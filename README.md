@@ -6,6 +6,7 @@
 ### Installation
 - Install the Chrome Extension
 - Install the Firefox Add-on
+- Install the Edge Extension ([Update your settings](https://pureinfotech.com/install-chrome-extension-chromium-edge/))
 - Manually inject the CSS & JS files
 
 > All trademarks referenced herein are the properties of their respective owners.
