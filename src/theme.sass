@@ -1,0 +1,242 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro&Roboto'
+$primaryColor: #0078d4
+
+.fxs-theme-clean
+
+  // ------------------------------------------------
+  // Genral
+  // ------------------------------------------------
+
+  // Set font-family
+  *
+    font-family: 'Roboto', sans-serif !important
+    letter-spacing: 0.025em !important
+
+  // Set link color
+  a
+    color: $primaryColor
+
+  // Remove items
+  .fxs-home-info,
+  .fxs-home-ad-container,
+  *[aria-label="Make the most out of Azure"],
+  .fxs-home-link.fxs-home-title-link.fxs-home-allrecents-link,
+  .fxs-sidebar-star.fxs-portal-svg svg,
+  .fxs-sidebar-favorites-section,
+  .fxs-sidebar-is-collapsed .fxs-sidebar-handle
+    display: none
+
+  // Set 60px height
+  .fxs-topbar,
+  .fxs-topbar-home,
+  .fxs-journey-breadcrumb,
+  .fxs-blade-header,
+  .fxs-commandBar-itemList,
+  .fxs-avatarmenu-header,
+  .fxs-topbar-button
+    height: 60px
+
+  // Set 40px height
+  .fxs-sidebar-item-link,
+  .fxs-sidebar-icon,
+  .fxs-button,
+  .fxc-grid2 table t tr td,
+  .fxs-sidebar-star.fxs-portal-svg
+    height: 40px
+
+
+  // ------------------------------------------------
+  // Unique
+  // ------------------------------------------------
+
+  .fxs-topbar-home
+    display: flex
+    align-items: center
+
+  .fxs-topbar-home svg
+    width: auto
+    height: 50%
+
+  .fxs-topbar-home .fxs-topbar-branding-product,
+  .fxs-topbar-home .fxs-topbar-branding-text
+    font-weight: 500
+    font-size: 18px
+    font-family: az_ea_font, "Segoe UI", wf_segoe-ui_normal, "Segoe WP", Tahoma, Arial, sans-serif
+    display: block
+    padding: 0 20px
+    color: white
+
+  .fxs-topbar-home .fxs-topbar-branding-product
+    position: relative
+
+  .fxs-topbar-home .fxs-topbar-branding-product::after
+    content: ''
+    height: 60%
+    width: 1px
+    background: rgba(255,255,255,0.5)
+    display: block
+    position: absolute
+    top: 20%
+    right: 0
+
+  .fxs-topbar-home .fxs-topbar-branding-text
+    font-weight: 300
+    font-size: 11px
+    font-style: italic
+    margin-top: 2px
+
+  .fxs-sidebar-item-link
+    font-size: 12px
+
+  .fxs-sidebar-icon
+    align-items: center
+    flex-direction: column
+    justify-content: center
+    display: flex
+
+  .fxs-splashscreen
+    background: #0078d4
+
+  .azc-textBox,
+  .azc-textBox-wrapper .azc-input
+    height: 30px
+    font-size: 12px
+
+  .fxs-blade-title
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+  .fxs-home-title-text,
+  .fxs-blade-title-titleText
+    line-height: 140%
+    font-weight: 500
+
+  .fxs-blade-title-subtitleText
+    margin-top: 0
+
+  // theme-azure
+  .fxs-search-wrapper
+    background-color: #055694
+    border-radius: 3px 3px
+    padding: 5px 15px
+
+  .fxs-topbar-search
+    margin-top: -3px
+
+  // theme-azure
+  .fxs-search-icon-mini
+    fill: white
+
+  // theme-azure
+  .fxs-search-box .azc-input
+    color: white
+    font-size: 14px
+    padding: 0 0 0 15px
+
+  // theme-azure
+  .fxs-search-box .azc-input::placeholder
+    color: rgba(255,255,255,0.5)
+    font-weight: 100
+
+  .fxs-avatarmenu-tenant
+    font-weight: 100
+    font-size: 10px
+
+  .fxs-avatarmenu-tenant-image-container
+    margin-top: -5px
+    padding-left: 10px
+    padding-right: 15px
+
+  .fxs-avatarmenu-tenant-image
+    border: 3px solid white
+
+  .fxs-button
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+  .fxs-search-menu
+    top: 40px
+
+  .fxs-home-recent-header
+    font-size: 10px
+
+  // color all icons
+  .fxs-mode-light .azc-toolbar-item,
+  .fxs-mode-light .msportalfx-command-like-button
+    fill: #0078d4
+
+  .fxs-portal-content
+    background: white
+
+  .fxs-startboard-header
+    margin-top: 10px
+
+  .fxs-part-titleText
+    font-weight: 500
+
+  .fxs-mode-light .fxs-bladecontent-unlocked .fxs-tile .fxs-part,
+  .fxs-mode-light .fxs-startboard-layout .fxs-tile .fxs-part
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15)
+    border: 1px solid #cccccc
+
+  // ------------------------------------------------
+  // Sidebar
+  // ------------------------------------------------
+
+  .fxs-sidebar-category-label,
+  .fxs-sidebar-flyout .fxs-sidebar-item .fxs-sidebar-matches-prefix,
+  .fxs-sidebar-flyout-title-text,
+  .fxs-sidebarflyout-category-button
+    font-weight: 500
+
+  .fxs-sidebar-label
+    margin-left: 10px
+
+  .fxs-sidebar-is-collapsed .fxs-sidebar-bar
+    width: 60px
+
+  .fxs-sidebar-is-collapsed .fxs-sidebar-icon
+    padding-left: 20px
+
+  .fxs-sidebar-is-collapsed .fxs-sidebar-fav-icon svg
+    margin-right: 5px
+    margin-left: 5px
+
+  .fxs-sidebar-is-collapsed .fxs-sidebar-item-link
+    height: 44px
+
+  .fxs-sidebar-star.fxs-portal-svg
+    position: relative
+    display: block
+    width: 60px
+    margin-left: 15px
+
+  .fxs-sidebar-star.fxs-portal-svg:before
+    content: ''
+    background: #ccc
+    border-radius: 50%
+    width: 15px
+    height: 15px
+    position: absolute
+    top: 16px
+    right: 16px
+    opacity: 1
+    transform: translate(-24px, 0)
+    transition: transform linear 0.1s
+
+  .fxs-sidebar-star.fxs-portal-svg.fxs-is-favorite:before
+    background: #16bb41
+    transform: translate(0, 0)
+
+  .fxs-sidebar-star.fxs-portal-svg:after
+    content: ''
+    background: #efefef
+    border-radius: 20px
+    width: 80%
+    height: 60%
+    display: block
+    margin-top: 20%
+
+
