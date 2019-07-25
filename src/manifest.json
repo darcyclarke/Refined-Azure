@@ -3,7 +3,7 @@
   "name": "refined-azure",
   "author": "Darcy Clarke <darcy@darcyclarke.me>",
   "description": "A custom theme to the portal.azure.com site",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage_url": "https://github.com/darcyclarke/refined-azure",
   "incognito": "spanning",
   "icons": {
