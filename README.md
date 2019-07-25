@@ -1,4 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/459713/56840586-4e33bb00-6856-11e9-8841-6d0c55af95ea.png" alt="Azure Logo" width="100px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/459713/61840888-c105ff80-ae60-11e9-96eb-a4f0627433b4.png" alt="Azure Logo" width="100px"></p>
 
 <h1 align="center">Refined Azure</h1>
 <p align="center">Cleaning up the Azure Portal Since 2019</p>
