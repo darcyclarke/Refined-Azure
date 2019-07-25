@@ -1,7 +1,7 @@
 {
   "name": "Refined-Azure",
   "version": "0.0.1",
-  "description": "Add custom theme to the portal.azure.com site",
+  "description": "A custom theme to the portal.azure.com site",
   "scripts": {
     "build": "",
     "ext:version": "node ./scripts/set-manifest-version.js",
