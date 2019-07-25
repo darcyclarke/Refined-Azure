@@ -11,7 +11,7 @@
 - Change default `font-family` to `"Source Sans Pro"`
 - Removes unnecessary clutter on homepage (ie. ads/widgets)
 - Changes **"Favorite"** identifiers to toggle buttons inside **"All Services"**
-- Sets default loading background to **"Azure Blue"** (<span style="color:#0078d4;">■</span> `#0078d4`)
+- Sets default loading background to **"Azure Blue"** (💙 `#0078d4`)
 - Removes redundant **"Microsoft"** branding
 - Adds Azure logo & tagline to header
 - Other styling fixes/changes...
