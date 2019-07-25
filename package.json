@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "A custom theme to the portal.azure.com site",
   "scripts": {
-    "build": "",
     "ext:version": "node ./scripts/set-manifest-version.js",
     "ext:compress": "zip -x '.*' './node_modules/*' './dist/*' './scripts/*' -r ./dist/build-$npm_package_version.zip .",
     "ext:build": "npm run ext:version && npm run ext:compress",
@@ -37,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/darcyclarke/Refined-Azure/issues"
   },
-  "homepage": "https://github.com/darcyclarke/Refined-Azure#readme"
+  "homepage": "https://github.com/darcyclarke/Refined-Azure#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }

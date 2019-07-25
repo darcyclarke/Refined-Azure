@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&Roboto');
+
+body * {
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: 0.025em !important;
+}
+
+body a {
+  color: #0078d4;
+}
+
+body :focus {
+  outline-color: #0078d4;
+}
+
+body .fxs-topbar,
+body .fxs-topbar-home,
+body .fxs-journey-breadcrumb,
+body .fxs-blade-header,
+body .fxs-commandBar-itemList,
+body .fxs-avatarmenu-header,
+body .fxs-topbar-button {
+  height: 60px;
+}
+
+body .fxs-topbar-home {
+  display: flex;
+  align-items: center;
+}
+
+body .fxs-topbar-home svg {
+  width: auto;
+  height: 50%;
+}
+
+body .fxs-topbar-home .fxs-topbar-branding-product,
+body .fxs-topbar-home .fxs-topbar-branding-text {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: az_ea_font, "Segoe UI", wf_segoe-ui_normal, "Segoe WP", Tahoma, Arial, sans-serif;
+  display: block;
+  padding: 0 20px;
+  color: white;
+}
+
+body .fxs-topbar-home .fxs-topbar-branding-product {
+  position: relative;
+}
+
+body .fxs-topbar-home .fxs-topbar-branding-product::after {
+  content: '';
+  height: 60%;
+  width: 1px;
+  background: rgba(255,255,255,0.5);
+  display: block;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+body .fxs-topbar-home .fxs-topbar-branding-text {
+  font-weight: 300;
+  font-size: 11px;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+body .fxs-sidebar-item-link {
+ height: 40px;
+ font-size: 12px;
+}
+
+
+body .fxs-sidebar-icon {
+  height: 40px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.fxs-splashscreen {
+  background: #0078d4 !important;
+}
+
+body .azc-textBox,
+body .azc-textBox-wrapper .azc-input {
+  height: 30px;
+  font-size: 12px;
+}
+
+body .fxs-blade-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body .fxs-home-title-text,
+body .fxs-blade-title-titleText {
+  line-height: 140%;
+  font-weight: 500;
+}
+
+body .fxs-blade-title-subtitleText {
+  margin-top: 0;
+}
+
+body .fxs-home-info,
+body .fxs-home-ad-container,
+body *[aria-label="Make the most out of Azure"],
+body.fxs-home-link.fxs-home-title-link.fxs-home-allrecents-link {
+  display: none;
+}
+
+
+body.fxs-theme-azure .fxs-search-wrapper {
+  background-color: #055694;
+  border-radius: 3px 3px;
+  padding: 5px 15px;
+}
+
+body .fxs-topbar-search {
+  margin-top: -3px;
+}
+
+body .fxs-search-showmenu .fxs-search-menu {
+  margin-top: 4px;
+}
+
+body .fxs-search-clear,
+body.fxs-theme-azure .fxs-search-icon-mini {
+  fill: white;
+  color: white;
+}
+
+body.fxs-theme-azure .fxs-search-box .azc-input {
+  color: white;
+  font-size: 14px;
+  padding: 0 0 0 15px;
+}
+
+body.fxs-theme-azure .fxs-search-box .azc-input::placeholder {
+  color: rgba(255,255,255,0.5);
+  font-weight: 100;
+}
+
+body .fxs-avatarmenu-tenant {
+  font-weight: 100;
+  font-size: 10px;
+}
+
+body .fxs-avatarmenu-tenant-image-container {
+  margin-top: -5px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+body .fxs-avatarmenu-tenant-image {
+  border: 3px solid white;
+}
+
+body .fxs-button {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body .ext-hubs-browse-emptytitle {
+  font-size: 24px !important;
+}
+
+body .ext-hubs-browse-emptytext {
+  font-size: 14px !important;
+}
+
+body .fxs-input {
+
+}
+
+body .fxc-dropdown-open.azc-input {
+  padding: 6px 20px 6px 8px;
+}
+
+body .fxs-search-menu {
+  top: 40px;
+}
+
+body .fxs-home-recent-header {
+  font-size: 10px;
+}
+
+body .fxc-grid2 table tbody tr td {
+  height: 40px;
+}
+
+body .fxs-sidebar-label {
+  margin-left: 10px;
+}
+
+body .fxs-sidebar-is-collapsed .fxs-sidebar-bar {
+  width: 60px;
+}
+
+body .fxs-sidebar-is-collapsed .fxs-sidebar-icon {
+  padding-left: 20px;
+}
+
+body .fxs-sidebar-is-collapsed .fxs-sidebar-fav-icon svg {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+body .fxs-sidebar-is-collapsed .fxs-sidebar-handle {
+  display: none;
+}
+
+body .fxs-sidebar-is-collapsed .fxs-sidebar-item-link {
+  height: 44px;
+}
+
+/* color all icons */
+body.fxs-mode-light .azc-toolbar-item,
+body.fxs-mode-light .msportalfx-command-like-button {
+  fill: #0078d4;
+}
+
+body .fxs-commandBar-item {
+  height: 60px;
+}
+
+body .fxs-portal-content {
+  background: white;
+}
+
+body .fxs-startboard-header {
+  margin-top: 10px;
+}
+
+body.fxs-mode-light .fxs-bladecontent-unlocked .fxs-tile .fxs-part,
+body.fxs-mode-light .fxs-startboard-layout .fxs-tile .fxs-part {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 1px solid #cccccc;
+}
+
+body .fxs-part-titleText {
+  font-weight: 500;
+}
+
+body .fxs-sidebar-category-label,
+body .fxs-sidebar-flyout .fxs-sidebar-item .fxs-sidebar-matches-prefix,
+body .fxs-sidebar-flyout-title-text,
+body .fxs-sidebarflyout-category-button {
+  font-weight: 500;
+}
+
+body .fxs-sidebar-star.fxs-portal-svg {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 40px;
+  margin-left: 15px;
+}
+
+body .fxs-sidebar-star.fxs-portal-svg svg {
+  display: none;
+}
+
+body .fxs-sidebar-star.fxs-portal-svg:before {
+  content: '';
+  background: #ccc;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  opacity: 1;
+  transform: translate(-24px, 0);
+  transition: transform linear 0.1s;
+}
+
+body .fxs-sidebar-star.fxs-portal-svg.fxs-is-favorite:before {
+  background: #16bb41;
+  transform: translate(0, 0);
+}
+
+body .fxs-sidebar-star.fxs-portal-svg:after {
+  content: '';
+  background: #efefef;
+  border-radius: 20px;
+  width: 80%;
+  height: 60%;
+  display: block;
+  margin-top: 20%;
+}
+
+body .fxs-sidebar-favorites-section {
+  display: none;
+}
+
+/* ------------------------------------ */
+/* net-new */
+body .css-scope-HubsExtension.css-scope-BladesHubsExtensionBrowseStylescss .ext-hubs-browse-emptytext {
+  text-align: left;
+  line-height: 160%;
+}
+
+body .fxs-home-feature-tile-container.fxs-home-section,
+body .fxs-home-title[aria-label="Azure services"],
+body .fxs-home-title-link[aria-label="See all your recent resources"] {
+  display: none;
+}
