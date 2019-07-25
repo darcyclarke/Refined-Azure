@@ -18,7 +18,7 @@
 
 ### Installation
 - Install the [Chrome Extension](https://chrome.google.com/webstore/detail/lnlpbocclenkbodommljgkegehadjocp/publish-review?hl=en)
-- Install the [Firefox Add-on]()
+- Install the [Firefox Add-on](https://addons.mozilla.org/en-CA/firefox/addon/refined-azure/)
 - Install the Edge Extension ([Update your settings](https://pureinfotech.com/install-chrome-extension-chromium-edge/))
 - Manually inject the CSS & JS files (found in `./src/`) /w the web extension of your choice
 
