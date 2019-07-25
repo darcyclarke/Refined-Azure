@@ -1,17 +1,38 @@
 {
   "name": "Refined-Azure",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Add custom theme to the portal.azure.com site",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "",
+    "ext:version": "node ./scripts/set-manifest-version.js",
+    "ext:compress": "zip -x '.*' './node_modules/*' './dist/*' './scripts/*' -r ./dist/build-$npm_package_version.zip .",
+    "ext:build": "npm run ext:version && npm run ext:compress",
+    "ext:publish:ws": "source .env && webstore upload --source=./dist/build-$npm_package_version.zip --auto-publish --extension-id $WS_ID --client-id $WS_CLIENT_ID --client-secret $WS_CLIENT_SECRET --refresh-token $WS_REFRESH_TOKEN",
+    "ext:publish:aom": "source .env && web-ext-submit -s=./ -a=./dist/ --id $AOM_ID --api-key $AOM_API_KEY --api-secret $AOM_API_SECRET ",
+    "ext:edit": "open https://chrome.google.com/webstore/developer/dashboard",
+    "ext:release": "npm run publish && npm run edit"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/darcyclarke/Refined-Azure.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "azure",
+    "themes",
+    "clean",
+    "refined",
+    "microsoft",
+    "portal",
+    "chrome",
+    "firefox",
+    "opera",
+    "edge",
+    "extension",
+    "web-extension",
+    "css",
+    "javascript"
+  ],
+  "author": "Darcy Clarke <darcy@darcyclarke.me>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/darcyclarke/Refined-Azure/issues"
