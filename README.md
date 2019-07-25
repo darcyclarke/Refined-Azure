@@ -25,8 +25,8 @@
 ![screen-nav](https://user-images.githubusercontent.com/459713/61894489-880c7000-aede-11e9-8a50-2352f1cf1174.jpg)
 
 ### Installation
-- Install the Chrome Extension
-- Install the Firefox Add-on
+- Install the [Chrome Extension](https://chrome.google.com/webstore/detail/lnlpbocclenkbodommljgkegehadjocp/publish-review?hl=en)
+- Install the [Firefox Add-on]()
 - Install the Edge Extension ([Update your settings](https://pureinfotech.com/install-chrome-extension-chromium-edge/))
 - Manually inject the CSS & JS files (found in `./src/`) /w the web extension of your choice
 
